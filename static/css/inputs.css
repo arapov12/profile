@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #FCFCFC;
+}
+.ali{
+    width: 535px;
+    height: 632px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.text-center{
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    flex-basis: 49%;
+    flex-shrink: 0;
+    flex-grow: 1;
+   
+}
+
+.register_form input[type="text"],
+.register_form input[type="number"],
+.register_form input[type="password"],
+.register_form input[type="date"],
+.register_form input[type="datetime"],
+.register_form input[type="week"], 
+.register_form input[type="month"],
+.register_form input[type="email"],
+.register_form  textarea{
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 17px -5px rgba(19, 135, 224, 0.6);
+    transition: .3s;
+}
+
+.register_form input[type="text"]:hover,
+.register_form input[type="number"]:hover,
+.register_form input[type="password"]:hover,
+.register_form input[type="date"]:hover,
+.register_form input[type="datetime"]:hover,
+.register_form input[type="week"]:hover, 
+.register_form input[type="month"]:hover,
+.register_form input[type="email"]:hover{
+    box-shadow: 0px 0px 20px -2px rgba(19, 135, 224, .9);
+}
+
+.register_form input[type="text"]:focus,
+.register_form input[type="number"]:focus,
+.register_form input[type="password"]:focus,
+.register_form input[type="date"]:focus,
+.register_form input[type="datetime"]:focus,
+.register_form input[type="week"]:focus, 
+.register_form input[type="month"]:focus,
+.register_form input[type="email"]:focus{
+    outline: 4px solid rgba(19, 135, 224, .2);
+}
+
+.register_form select {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 17px -5px rgba(19, 135, 224, 0.6);
+    transition: .3s;
+}
+
+.register_form select:hover{
+    box-shadow: 0px 0px 20px -2px rgba(19, 135, 224, .9);
+}
+
+.register_form select:focus{
+    outline: 4px solid rgba(19, 135, 224, .2);
+}
+
+
+.register_form button, 
+.register_form input[type="submit"],
+.register_form input[type="reset"],
+.register_form input[type="button"]{
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    background: rgba(134, 67, 220, 1);
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 25px;
+    transition: .3s;
+}
+
+.register_form button:hover, 
+.register_form input[type="submit"]:hover,
+.register_form input[type="reset"]:hover,
+.register_form input[type="button"]:hover{
+    background: rgba(224, 53, 19, 0.9);
+}
+
+.register_form button:active, 
+.register_form input[type="submit"]:active,
+.register_form input[type="reset"]:active,
+.register_form input[type="button"]:active{
+    background: rgba(224, 203, 19, 0.9);
+}
